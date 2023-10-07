@@ -11,7 +11,7 @@ set javapath="%lunarpath%\jre\4dcd188552ce8876d5e55e1f6d22505109bfa4cb\zulu17.34
 set gameDir=%appdata%\.minecraft
 set version=1.8.9
 set module=lunar
-set jvmargs="-javaagent:C:\Users\TT-PC\.lunarclient\offline\multiver\weave24.jar"
+set jvmargs=
 
 :: -----------------------------------------------------------------------------------------------------------------------
 ::If you are editing settings, this is as much as you can configure. Beyond this is the logic for the code.
