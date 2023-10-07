@@ -1,0 +1,3 @@
+javapath=%JAVA_HOME%/bin/java.exe
+gameDir=%appdata%/.minecraft
+version=1.8.9
