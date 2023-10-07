@@ -79,6 +79,7 @@ echo 	gameDir=%gameDir%
 echo 	javapath=%javapath%
 echo 	version=%version%
 echo 	module=%module%
+echo 	args=%jvmargs%
 goto :eof
 
 :config
