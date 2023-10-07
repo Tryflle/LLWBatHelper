@@ -74,7 +74,7 @@ goto intro
 :info
 cls
 call :callheader
-echo 	Configuration from llwconfig.txt contains:
+echo 	Configuration contains:
 echo 	gameDir=%gameDir%
 echo 	javapath=%javapath%
 echo 	version=%version%
