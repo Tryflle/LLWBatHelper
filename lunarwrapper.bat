@@ -11,6 +11,7 @@ set javapath="%lunarpath%\jre\4dcd188552ce8876d5e55e1f6d22505109bfa4cb\zulu17.34
 set gameDir=%appdata%\.minecraft
 set version=1.8.9
 set module=lunar
+set jvmargs="-javaagent:C:\Users\TT-PC\.lunarclient\offline\multiver\weave24.jar"
 
 :: -----------------------------------------------------------------------------------------------------------------------
 ::If you are editing settings, this is as much as you can configure. Beyond this is the logic for the code.
@@ -20,7 +21,7 @@ title Lunar Launcher Wrapper
 
 :intro
 cls
-echo lunarwrapper.bat 1.0.0
+echo lunarwrapper.bat 1.0.1
 echo.
 echo.
 echo 	Lunar Launcher Wrapper
@@ -50,7 +51,7 @@ goto intro
 
 :callheader
 cls
-echo lunarwrapper.bat 1.0.0
+echo lunarwrapper.bat 1.0.1
 echo.
 echo.
 echo 	Lunar Launcher Wrapper
@@ -103,5 +104,5 @@ goto intro
 
 :open
 cd %scriptpath%
-%javapath% --add-opens java.base/java.lang=ALL-UNNAMED -cp LunarLaunchWrapper-1.0.0-all.jar wtf.zani.launchwrapper.LunarLaunchWrapperKt --module %module% --version %version% --gameDir %gameDir%
+%javapath% --add-opens java.base/java.lang=ALL-UNNAMED %jvmargs% -cp LunarLaunchWrapper-1.0.0-all.jar wtf.zani.launchwrapper.LunarLaunchWrapperKt --module %module% --version %version% --gameDir %gameDir%
 pause
