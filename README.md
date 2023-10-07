@@ -1,6 +1,7 @@
 # Lunar Launcher Wrapper Batch Helper
 - Made to make https://github.com/Zxnii/LunarLaunchWrapper user friendly and easy to use!
-- BTW: Downloads a prebuilt agent that I built and uploaded on Discord, if you don't want this, you can build it yourself. Refer to the building section.
+- BTW: You must run the setup command (option 3) or drop in your built jar.
+- The setup commands downloads the jar that I built and uploaded on Discord, if you are afraid it's tampered with, you are welcome to build it. Refer to the build section.
 # Modules
 - `lunar forge` Forge
 - `lunar` - OptiFine
