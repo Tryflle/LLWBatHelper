@@ -10,7 +10,7 @@
 - Put in the full version of any version that lunar supports! Make sure it's downloaded already.
 # Note
 - Requires JDK 17
-- Java Agents are problematic, but if you want you can add in the `:open` location at the end of the file: after `--add-opens java.base/java.lang=ALL-UNNAMED` add `"-javaagent:C:/Path/To/Agent.jar"`
+- To add agents, add this to the jvmargs setting: `"-javaagent:C:/Path/To/Your/Agent.jar"`
 # Building LunarLaunchWrapper
 - If you want to build LunarLaunchWrapper from Zani's repo on your own, you'll want IntelliJ
 - Set your Projects SDK to JDK 17
